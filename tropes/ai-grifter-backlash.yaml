@@ -1,0 +1,21 @@
+# GNIF Trope Concept: AI Grifter Backlash
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:AIGrifterBacklash"
+prefLabel: "AI Grifter Backlash"
+altLabels:
+  - "Hoist with their own AI petard"
+  - "AI bubble burst for scammers"
+  - "Tech bro comeuppance"
+
+definition: >
+  The narrative that low-effort opportunists ("grifters") exploiting the AI hype cycle will inevitably fail or expose their own incompetence using the very tools they promote.
+
+description: >
+  Frequently deployed in tech commentary, social media, and industry reporting. It functions as a form of schadenfreude or poetic justice, celebrating when an automated AI system generates a highly public, embarrassing failure for an individual or company trying to cut corners or sell vaporware.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:TechIndustryCritique"
+  relatedTropes:
+    - "gnif:trope:belongielab:AIWashing"
+    - "gnif:trope:belongielab:WeaponizedIncompetence"
