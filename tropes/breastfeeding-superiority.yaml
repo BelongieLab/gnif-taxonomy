@@ -1,0 +1,20 @@
+# GNIF Trope Concept: Breastfeeding Superiority
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:BreastfeedingSuperiority"
+prefLabel: "Breastfeeding Superiority"
+altLabels:
+  - "Breast is best"
+  - "Formula is toxic chemical sludge"
+  - "Natural motherhood narrative"
+
+definition: >
+  The normative societal assertion that breastfeeding is inherently healthier, safer, and morally superior to using baby formula, often casting formula usage as a compromised or inferior choice.
+
+description: >
+  A highly charged trope in parenting forums, public health campaigns, and social media. It often shifts from basic medical advice into moral commentary, inadvertently generating intense societal guilt and judgment targeting mothers who cannot or choose not to breastfeed.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:NaturalistFallacy"
+  relatedTropes:
+    - "gnif:trope:belongielab:ParentalShaming"
