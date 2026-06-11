@@ -1,0 +1,26 @@
+# GNIF Trope Concept: Forced AI Integration
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:ForcedAIIntegration"
+prefLabel: "Forced AI Integration"
+altLabels:
+  - "Force-Fed AI"
+  - "AI Cramming"
+  - "Unsolicited AI"
+  - "Shoehorned AI"
+
+definition: >
+  The perception or narrative that technology companies are unnecessarily integrating artificial intelligence features into products and interfaces where they are not requested, needed, or helpful to the user.
+
+description: >
+  This narrative frequently emerges in tech journalism, social media, and product reviews. It describes a phenomenon where user-centric design is seemingly abandoned in favor of market-driven AI adoption. Commentators use this trope to critique platform monopolies, arguing that users are treated as captive test subjects for beta-level machine learning models, often resulting in cluttered UIs, degraded core functionality, or hallucinated search results replacing standard queries.
+
+comments: >
+  Highlights the current tension between aggressive corporate AI adoption and genuine human-in-the-loop utility. Often overlaps with the broader "enshittification" narrative regarding platform decay.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:UserHostileDesign"
+  relatedTropes:
+    - "gnif:trope:belongielab:TechSolutionism"
+    - "gnif:trope:belongielab:AIWashing"
+    - "gnif:trope:belongielab:Enshittification"
