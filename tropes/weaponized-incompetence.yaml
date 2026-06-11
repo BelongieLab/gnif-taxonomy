@@ -1,0 +1,34 @@
+# GNIF Trope Concept: Weaponized Incompetence
+$schema: "https://raw.githubusercontent.com/PioneerCentre/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:pioneercentre:WeaponizedIncompetence"
+prefLabel: "Weaponized Incompetence"
+altLabels:
+  - "Strategic Incompetence"
+  - "Feigned Ignorance"
+
+# -----------------------------------------------------------------------------
+# 1. THE CHARACTERIZATION
+# -----------------------------------------------------------------------------
+definition: >
+  The act of pretending to be bad at a task, or deliberately performing it poorly, 
+  so that someone else will take over the responsibility and avoid asking again in the future.
+
+description: >
+  In social media commentary, this trope is heavily utilized in discussions around 
+  domestic labor and gender dynamics. In news and political commentary, it is often 
+  invoked by pundits or commenters to argue that a systemic failure or administrative 
+  "mistake" by a powerful entity was actually a deliberate, malicious act disguised as ineptitude.
+
+comments: >
+  Originally emerged in 1980s corporate HR literature as 'Skilled Incompetence' 
+  before migrating to mainstream social media platforms around 2021.
+
+# -----------------------------------------------------------------------------
+# 2. GRAPH EDGES 
+# -----------------------------------------------------------------------------
+relationships:
+  parentTrope: "gnif:trope:pioneercentre:DeflectionTactics"
+  relatedTropes:
+    - "gnif:trope:pioneercentre:LearnedHelplessness"
+    - "gnif:trope:pioneercentre:PlausibleDeniability"
