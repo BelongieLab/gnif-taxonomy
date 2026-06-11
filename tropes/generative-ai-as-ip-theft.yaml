@@ -1,0 +1,21 @@
+# GNIF Trope Concept: Generative AI as IP Theft
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:GenerativeAIAsIPTheft"
+prefLabel: "Generative AI as IP Theft"
+altLabels:
+  - "AI is built on intellectual property theft"
+  - "The plagiarism engine"
+  - "Laundering copyrighted data"
+
+definition: >
+  The narrative framing the training of foundation machine learning models on publicly available, copyrighted internet data without explicit consent, compensation, or credit as structural intellectual property theft.
+
+description: >
+  The foundational legal and ethical counter-argument to the generative AI boom. Utilized intensely by artist guilds, authors, programmers, and copyright lawyers to reframe corporate machine learning breakthroughs as exploitative piracy operations.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:TechIndustryCritique"
+  relatedTropes:
+    - "gnif:trope:belongielab:SoullessAIMusic"
+    - "gnif:trope:belongielab:AIGrifterBacklash"
