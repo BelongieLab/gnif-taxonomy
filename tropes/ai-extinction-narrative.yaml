@@ -1,0 +1,21 @@
+# GNIF Trope Concept: AI Extinction Narrative
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:AIExtinctionNarrative"
+prefLabel: "AI Extinction Narrative"
+altLabels:
+  - "AI will kill us all"
+  - "The Skynet Scenario"
+  - "Existential AI Risk"
+
+definition: >
+  The macro-narrative that the development of Artificial General Intelligence (AGI) poses an uncontrollable, existential threat that will inevitably result in the annihilation of humanity.
+
+description: >
+  A dominant framework in both mainstream news reporting and specific tech-safety subcultures. It shifts the conversation away from immediate AI harms (like bias or copyright) toward Hollywood-style existential dread, often leveraged rhetorically either to advocate for regulatory capture or to express baseline techno-pessimism.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:ExistentialDread"
+  relatedTropes:
+    - "gnif:trope:belongielab:FrankensteinComplex"
+    - "gnif:trope:belongielab:TechSolutionism"
