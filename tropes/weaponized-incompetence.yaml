@@ -1,7 +1,7 @@
 # GNIF Trope Concept: Weaponized Incompetence
-$schema: "https://raw.githubusercontent.com/PioneerCentre/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
 
-tropeID: "gnif:trope:pioneercentre:WeaponizedIncompetence"
+tropeID: "gnif:trope:BelongieLab:WeaponizedIncompetence"
 prefLabel: "Weaponized Incompetence"
 altLabels:
   - "Strategic Incompetence"
@@ -28,7 +28,7 @@ comments: >
 # 2. GRAPH EDGES 
 # -----------------------------------------------------------------------------
 relationships:
-  parentTrope: "gnif:trope:pioneercentre:DeflectionTactics"
+  parentTrope: "gnif:trope:BelongieLab:DeflectionTactics"
   relatedTropes:
-    - "gnif:trope:pioneercentre:LearnedHelplessness"
-    - "gnif:trope:pioneercentre:PlausibleDeniability"
+    - "gnif:trope:BelongieLab:LearnedHelplessness"
+    - "gnif:trope:BelongieLab:PlausibleDeniability"
