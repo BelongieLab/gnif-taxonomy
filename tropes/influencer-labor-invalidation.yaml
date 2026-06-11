@@ -1,0 +1,20 @@
+# GNIF Trope Concept: Influencer Labor Invalidation
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:InfluencerLaborInvalidation"
+prefLabel: "Influencer Labor Invalidation"
+altLabels:
+  - "Influencer is not a real job"
+  - "Get a real job"
+  - "Parasitic internet fame"
+
+definition: >
+  The dismissive cultural narrative that social media content creation, brand influencing, and streaming do not constitute "real" or legitimate work, framing it instead as narcissistic vanity.
+
+description: >
+  Frequently utilized by older generations, traditional workers, and mainstream media commentators. It deliberately ignores the production, editing, marketing, and psychological burnout associated with digital economy labor, treating influencers as overpaid, lazy figures who exploit attention.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:LaborDiscourse"
+  relatedTropes:
+    - "gnif:trope:belongielab:QuietQuitting"
