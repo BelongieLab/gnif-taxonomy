@@ -1,0 +1,19 @@
+# GNIF Trope Concept: Paper Towel Superiority
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:PaperTowelSuperiority"
+prefLabel: "Paper Towel Superiority"
+altLabels:
+  - "Air dryers are bacteria bombs"
+  - "The hygiene dryer lie"
+
+definition: >
+  The consumer narrative that paper towels are functionally and hygienically superior to electric restroom air dryers, which are framed as loud, ineffective, and unsanitary.
+
+description: >
+  A classic consumer-experience trope that frequently goes viral on lifestyle blogs, TikTok, and Reddit. It weaponizes hygiene studies to claim that jet air dryers merely blast bacteria around the room, serving as a microcosm for rejecting modern, automated design in favor of analog reliability.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:ConsumerExperience"
+  relatedTropes:
+    - "gnif:trope:belongielab:Greenwashing"
