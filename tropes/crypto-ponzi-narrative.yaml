@@ -1,0 +1,20 @@
+# GNIF Trope Concept: Crypto Ponzi Narrative
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:CryptoPonziNarrative"
+prefLabel: "Crypto Ponzi Narrative"
+altLabels:
+  - "Crypto is a Ponzi scheme"
+  - "Web3 Greater Fool Theory"
+  - "Line Goes Up"
+
+definition: >
+  The characterization of the entire cryptocurrency and Web3 ecosystem as an unsustainable, speculative bubble that relies entirely on bringing in new investors to pay off earlier ones.
+
+description: >
+  The dominant counter-narrative to financial tech optimism. Deployed heavily by financial journalists, tech skeptics, and consumer advocates to dismiss blockchain innovations as economic scams devoid of underlying real-world utility.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:FinancialSkepticism"
+  relatedTropes:
+    - "gnif:trope:belongielab:TechSolutionism"
