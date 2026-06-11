@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json",
+  "title": "GNIF Trope Concept Schema",
+  "type": "object",
+  "required": ["$schema", "tropeID", "prefLabel", "definition"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "tropeID": { 
+      "type": "string", 
+      "pattern": "^gnif:trope:[A-Za-z0-9_-]+:[A-Za-z0-9]+$" 
+    },
+    "prefLabel": { "type": "string" },
+    "altLabels": { 
+      "type": "array", 
+      "items": { "type": "string" } 
+    },
+    "definition": { "type": "string" },
+    "description": { "type": "string" },
+    "comments": { "type": "string" },
+    "relationships": {
+      "type": "object",
+      "properties": {
+        "parentTrope": { "type": "string", "pattern": "^gnif:trope:[A-Za-z0-9_-]+:[A-Za-z0-9]+$" },
+        "relatedTropes": { 
+          "type": "array", 
+          "items": { "type": "string", "pattern": "^gnif:trope:[A-Za-z0-9_-]+:[A-Za-z0-9]+$" } 
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
