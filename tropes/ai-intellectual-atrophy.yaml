@@ -1,0 +1,21 @@
+# GNIF Trope Concept: AI Intellectual Atrophy
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:AIIntellectualAtrophy"
+prefLabel: "AI Intellectual Atrophy"
+altLabels:
+  - "AI makes you stupid"
+  - "Cognitive offloading decay"
+  - "The death of critical thinking"
+
+definition: >
+  The assertion that over-reliance on generative AI assistants for writing, coding, and problem-solving causes human cognitive skills, critical thinking, and basic literacy to atrophy.
+
+description: >
+  Prevalent in educational discourse, philosophy blogs, and cultural commentary. It frames AI adoption not as an amplification of human capability, but as an intellectual crutch that breeds a generation incapable of deep thought or unassisted creation.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:TechnologicalPessimism"
+  relatedTropes:
+    - "gnif:trope:belongielab:ForcedAIIntegration"
+    - "gnif:trope:belongielab:LearnedHelplessness"
