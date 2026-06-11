@@ -1,0 +1,24 @@
+# GNIF Trope Concept: Whataboutism
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:pioneercentre:Whataboutism"
+prefLabel: "Whataboutism"
+altLabels:
+  - "Tu Quoque"
+  - "The Hypocrisy Deflection"
+  - "Appeal to Hypocrisy"
+
+definition: >
+  A rhetorical deflection technique where an accusation or difficult question is met with a counter-accusation targeting the opponent's past actions, rather than addressing the original issue.
+
+description: >
+  Ubiquitous in political commentary and debate settings. In news broadcasting, it frequently manifests during interviews when a subject pivots the conversation to a rival's scandals. On social media, it is the primary engine of comment-thread polarization, often surfacing as "But what about when [X] did [Y]?" to neutralize criticism of a preferred figure or group.
+
+comments: >
+  A descendant of the Latin logical fallacy 'tu quoque' (you also). Deeply associated with Cold War propaganda techniques before becoming a standard internet argumentation tactic.
+
+relationships:
+  parentTrope: "gnif:trope:pioneercentre:DeflectionTactics"
+  relatedTropes:
+    - "gnif:trope:pioneercentre:FalseEquivalence"
+    - "gnif:trope:pioneercentre:Strawman"
