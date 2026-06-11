@@ -1,0 +1,20 @@
+# GNIF Trope Concept: Nuclear Danger Narrative
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:NuclearDangerNarrative"
+prefLabel: "Nuclear Danger Narrative"
+altLabels:
+  - "Nuclear energy is dangerous"
+  - "The Chernobyl shadow"
+  - "Atomic dread"
+
+definition: >
+  The persistent narrative framing nuclear energy primarily through its catastrophic risks, waste longevity, and historical disasters, rather than its low-carbon output.
+
+description: >
+  A foundational trope in environmental reporting and political policy debates. It capitalizes on deep-seated cultural trauma from the Cold War and specific disasters (Chernobyl, Fukushima) to counter green-energy arguments, often ignoring modern technical safeguards in favor of visceral threat framing.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:RiskFraming"
+  relatedTropes:
+    - "gnif:trope:belongielab:IsolatedIncident"
