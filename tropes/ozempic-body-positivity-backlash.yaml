@@ -1,0 +1,20 @@
+# GNIF Trope Concept: Ozempic Body Positivity Backlash
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:OzempicBodyPositivityBacklash"
+prefLabel: "Ozempic Body Positivity Backlash"
+altLabels:
+  - "Ozempic is damaging body positivity"
+  - "The return of the 90s heroin chic"
+  - "Medicalized weight-loss betrayal"
+
+definition: >
+  The cultural critique that the widespread adoption of GLP-1 receptor agonists (like Ozempic) for rapid cosmetic weight loss is dismantling a decade of progress achieved by the body positivity and fat-acceptance movements.
+
+description: >
+  Highly active in cultural commentary, fashion magazines, and internet subcultures. It frames the pharmaceutical erasure of diverse body types as a societal regression that reinstitutes narrow, unrealistic beauty standards, treating the drug as a cultural betrayal rather than a medical tool.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:BeautyStandardCritique"
+  relatedTropes:
+    - "gnif:trope:belongielab:MedicalizationOfIdentity"
