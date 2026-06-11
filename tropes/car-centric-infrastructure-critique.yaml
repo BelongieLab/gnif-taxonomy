@@ -1,0 +1,20 @@
+# GNIF Trope Concept: Car-Centric Infrastructure Critique
+$schema: "https://raw.githubusercontent.com/BelongieLab/gnif-taxonomy/main/schemas/trope-schema-v1.1.0.json"
+
+tropeID: "gnif:trope:belongielab:CarCentricInfrastructureCritique"
+prefLabel: "Car-Centric Infrastructure Critique"
+altLabels:
+  - "Car-centric infrastructure is bad"
+  - "The tyranny of the automobile"
+  - "r/fuckcars framing"
+
+definition: >
+  The urban planning narrative that designing cities primarily around personal automobile transit destroys communities, damages the environment, and creates hostile, unlivable public spaces.
+
+description: >
+  Extremely prominent in modern municipal politics, YouTube essayist channels (e.g., Not Just Bikes), and subreddits. It systematically attributes societal isolation, obesity, and climate change directly to suburban sprawl and stroad design, advocating for walkable, transit-oriented development.
+
+relationships:
+  parentTrope: "gnif:trope:belongielab:UrbanistCritique"
+  relatedTropes:
+    - "gnif:trope:belongielab:HostileArchitecture"
