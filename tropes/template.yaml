@@ -1,0 +1,31 @@
+name: Validate Trope Submissions
+
+on:
+  pull_request:
+    paths:
+      - 'tropes/**.yaml'
+
+jobs:
+  validate-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Validators
+        run: npm install -g ajv-cli yaml-cli
+
+      - name: Run Schema Validation
+        run: |
+          for file in tropes/*.yaml; do
+            if [ -f "$file" ] && [ "$file" != "tropes/template.yaml" ]; then
+              echo "Validating $file..."
+              # Convert YAML to JSON dynamically, pipe to ajv for schema validation
+              yaml2json "$file" | ajv validate -s schemas/trope-schema-v1.1.0.json -d /dev/stdin
+            fi
+          done
